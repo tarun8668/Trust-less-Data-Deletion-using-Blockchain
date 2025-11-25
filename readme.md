@@ -7,8 +7,6 @@ Decentralized Storage System is a project that aims to provide a secure and effi
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -61,20 +59,5 @@ Deployed app link :  [Decentralized-Storage-System](decentralized-storage-system
 1. Use mumbai network otherwise it will give you an error. 
 2. If you are not able to view the images even after you upload, It may occur because of IPFS issues please try again after sometime. Or please pause the adBlocker on the site.
 3. You can share your images with another address using the share button. This will share all your images uploaded.
-4. If you want to view the images of shared account you type the address of that account and hit display images if you have access of that account you will be able to view it :) 
-   
-## Contributing
+4. If you want to view the images of shared account you type the address of that account and hit display images if you have access of that account you will be able to view it :) .
 
-Contributions to the Decentralized Storage System project are welcome! If you find any issues, have feature suggestions, or want to contribute enhancements or bug fixes, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make the necessary modifications and commit your changes.
-4. Push your branch to your forked repository.
-5. Submit a pull request to the main repository.
-
-Please ensure your code adheres to the project's coding standards and includes appropriate tests.
-
-## License
-
-This project is licensed under the MIT License. Feel free to use, modify, and distribute this project as per the terms of the license.
