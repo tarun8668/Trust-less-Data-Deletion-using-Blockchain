@@ -35,7 +35,7 @@ Deployed app link :  [decentralized-storage-system.vercel.app/](decentralized-st
 
 1. Clone the repository:
   ```
-   git clone https://github.com/Atharv181/Decentralized-Storage-System.git
+   git clone https://github.com/tarun8668/Decentralized-Storage-System.git
   ```
 
 2. Install the required dependencies:
