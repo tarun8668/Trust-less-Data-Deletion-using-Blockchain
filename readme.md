@@ -14,7 +14,7 @@ The Decentralized Storage System project utilizes a decentralized network of nod
 
 The project leverages decentralized storage using the InterPlanetary File System (IPFS), creating an alternative to platforms like Google Drive. However, it goes a step further by incorporating blockchain technology to enhance data security. By utilizing IPFS, the project ensures that files are distributed across a network of nodes.
 
-Deployed app link :  [Decentralized-Storage-System](decentralized-storage-system.vercel.app/) 
+Deployed app link :  [](decentralized-storage-system.vercel.app/) 
 
 ![image](https://github.com/Atharv181/Decentralized-Storage-System/assets/73999654/a65f25b1-dc54-4c84-b838-d29accd46b2d)
 ![image](https://github.com/Atharv181/Decentralized-Storage-System/assets/73999654/45490124-4b68-407a-acf4-0f2f0dc04928)
