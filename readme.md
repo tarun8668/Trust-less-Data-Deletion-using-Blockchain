@@ -52,8 +52,6 @@ Deployed app link :  [Decentralized-Storage-System](decentralized-storage-system
  npm run start
  ```
    
-   The app will start on localhost:3000 :)
-   
 ## Notes
 
 1. Use mumbai network otherwise it will give you an error. 
