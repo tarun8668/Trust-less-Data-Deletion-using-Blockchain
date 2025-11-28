@@ -1,61 +1,60 @@
-# Decentralized Storage System
+## Decentralized Storage System
+A blockchain-powered decentralized file storage platform that enables users to securely upload, store, and share files without relying on any centralized authority or single point of failure.
 
-Decentralized Storage System is a project that aims to provide a secure and efficient storage solution by leveraging blockchain technology. It enables users to store and retrieve data in a decentralized manner, eliminating the need for a central authority or a single point of failure.
+## About
+<!--Detailed Description about the project-->
+Decentralized Storage System is a blockchain-integrated storage platform designed to provide secure, tamper-proof, and highly available data storage using IPFS and smart contracts. Traditional cloud storage solutions depend on centralized servers, making them vulnerable to outages, hacks, single-point failures, and data manipulation.
 
-## Table of Contents
+This project overcomes these limitations by distributing data across a decentralized network using the InterPlanetary File System (IPFS) while using blockchain to ensure data integrity, user authentication, and secure file referencing. The system provides a Google-Drive-like experience but enhanced with transparency, immutability, encryption, and decentralized access control.
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-
-## Introduction
-
-The Decentralized Storage System project utilizes a decentralized network of nodes to store and distribute data. It leverages blockchain technology to ensure data integrity, immutability, and availability. By distributing data across multiple nodes, it provides enhanced security and eliminates the risk of data loss or unauthorized access.
-
-The project leverages decentralized storage using the InterPlanetary File System (IPFS), creating an alternative to platforms like Google Drive. However, it goes a step further by incorporating blockchain technology to enhance data security. By utilizing IPFS, the project ensures that files are distributed across a network of nodes.
-
-Deployed app link :  [decentralized-storage-system.vercel.app/](decentralized-storage-system.vercel.app/) 
-
-![image](https://github.com/Atharv181/Decentralized-Storage-System/assets/73999654/a65f25b1-dc54-4c84-b838-d29accd46b2d)
-![image](https://github.com/Atharv181/Decentralized-Storage-System/assets/73999654/45490124-4b68-407a-acf4-0f2f0dc04928)
-![image](https://github.com/Atharv181/Decentralized-Storage-System/assets/73999654/8981ea1b-b563-40e6-a846-a1064ef1b18e)
-
-
-
+The deployed application allows users to upload files, share them with other wallet addresses, and retrieve data efficiently through the decentralized network.
 
 ## Features
+<!--List the features of the project as shown below-->
+- Fully decentralized storage using IPFS.
+- Blockchain-based data integrity and secure referencing.
+- Encryption before upload for enhanced privacy.
+- File sharing functionality using wallet addresses.
+- High availability through distributed file replication.
+- Frontend designed for seamless uploading, viewing, and access control.
+- Trustless architecture — no centralized storage provider.
 
-- **Decentralized Storage**: Data is stored across multiple nodes in a decentralized network, ensuring redundancy and availability.
-- **Data Encryption**: Data is encrypted before being stored, providing an additional layer of security.
-- **Data Integrity**: Blockchain technology guarantees the integrity and immutability of stored data.
-- **Data Replication**: Data is replicated across multiple nodes, preventing data loss and improving reliability.
-- **Data Retrieval**: Users can easily retrieve their stored data using a secure and efficient retrieval mechanism.
+## Requirements
+<!--List the requirements of the project as shown below-->
+* Operating System: 64-bit OS such as Windows 10, macOS, or Ubuntu.
+* Development Environment: Node.js (v16 or later) and npm.
+* Blockchain Network: Polygon Mumbai / Amoy testnet for smart contract deployment.
+* IPFS: Pinata or local IPFS node for file storage.
+* Smart Contract Tools: Hardhat or Truffle for compiling & deploying contracts.
+* Frontend Dependencies: React.js, Web3.js / Ethers.js for blockchain interaction.
+* Version Control: Git for managing the repository.
+* Additional Dependencies: Axios, dotenv, and other libraries specified in package.json.
 
-## Installation
+## System Architecture
+<!--Embed the system architecture diagram as shown below-->
 
-1. Clone the repository:
-  ```
-   git clone https://github.com/tarun8668/Decentralized-Storage-System.git
-  ```
+![System Architecture](https://github.com/Atharv181/Decentralized-Storage-System/assets/73999654/a65f25b1-dc54-4c84-b838-d29accd46b2d)
 
-2. Install the required dependencies:
-  ```
-   cd Decentralized-Storage-System
-   npm install
-  ```
-3. Enter into the client(Frontend Folder):
-  ```
-  cd client
-  ```
-4. Start the decentralized storage system:
- ```
- npm run start
- ```
-   
-## Notes
+## Output
 
-1. Use mumbai network otherwise it will give you an error. 
-2. If you are not able to view the images even after you upload, It may occur because of IPFS issues please try again after sometime. Or please pause the adBlocker on the site.
-3. You can share your images with another address using the share button. This will share all your images uploaded.
-4. If you want to view the images of shared account you type the address of that account and hit display images if you have access of that account you will be able to view it :) .
+<!--Embed the Output picture at respective places as shown below-->
+#### Output1 - File Upload Interface
 
+![Screenshot](https://github.com/Atharv181/Decentralized-Storage-System/assets/73999654/45490124-4b68-407a-acf4-0f2f0dc04928)
+
+#### Output2 - Uploaded Files Display & Sharing
+
+![Screenshot](https://github.com/Atharv181/Decentralized-Storage-System/assets/73999654/8981ea1b-b563-40e6-a846-a1064ef1b18e)
+
+Note: Storage and retrieval depend on IPFS availability. If images do not load temporarily, it may be due to IPFS node delays or browser ad blockers.
+
+## Results and Impact
+<!--Give the results and impact as shown below-->
+The Decentralized Storage System demonstrates how blockchain and distributed networks can replace traditional centralized storage. By eliminating single points of failure and integrating cryptographic guarantees, the system ensures maximum privacy, transparency, and reliability.
+
+This project serves as a foundation for real-world decentralized applications (dApps) requiring secure file storage, such as digital identity management, medical record systems, document verification platforms, and more.
+
+## Articles published / References
+1. Protocol Labs, “IPFS: Content Addressed, Versioned, P2P File System.”
+2. Ethereum Foundation, “Smart Contracts and Decentralized Storage Overview.”
+3. R. V. Dharaskar, “Blockchain-Based Secure Storage Systems,” Journal of Computer Science, 2024.
